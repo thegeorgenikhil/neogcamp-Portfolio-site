@@ -1,64 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-</head>
-<body>
-    <h1>welcome to nikhil's component library</h1>
-    <p>I am attending neog.camp and I want to make a library wjich would make all my projects
-        look good and consistent
-    </p>
-    <hr>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nikhil | Web Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="nav-brand">nikhilgeorge</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a href="index.html" class="link link-active">home</a>
+        </li>
+        <li class="list-item-inline"><a href="projects.html" class="link">projects</a></li>
+        <li class="list-item-inline"><a href="blogs.html" class="link">blogs</a></li>
+      </ul>
+    </nav>
 
-    <h2>@typography</h2>
+    <header class="hero">
+      <img src="images/hero-image.svg" alt="" class="hero-img" />
+      <h1 class="hero-heading">
+        nikhil george |
+        <span class="hero-heading-highlight">web developer</span>
+      </h1>
+    </header>
 
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-    <p>This is the normal text.This is freeflowing and will warp around at the end of the paragarph</p>
-    <small>This is relatively smaller text</small>
+    <section class="section section-off-white">
+      <div class="container">
+        <h1>technologies</h1>
+        <p>
+          I am familiar with HTML5, CSS3, Git, Javascript, NodeJS, ReactJS and
+          Web Hosting
+        </p>
+      </div>
+    </section>
 
-    <hr>
+    <section class="section">
+      <div class="container">
+        <h1>projects</h1>
+        <p>
+          I like to showcase my work and thus, you can see my projects hosted
+          online.
+        </p>
+        <a href="/" class="link-primary link">SEE PROJECTS</a>
+      </div>
+    </section>
 
-    <h2>@containers</h2>
-    
-    <h3>fluid container</h3>
-    <div>This is a fluid container and it will go till the end of the page.</div>
+    <section class="section section-off-white">
+      <div class="container">
+        <h1>blogs</h1>
+        <p>
+            I am also working on some technical and non technical blogs. I like to document my journey of learning.
+        </p>
+        <a href="/" class="link-secondary link">READ BLOGS</a>
+      </div>
+    </section>
 
-    <h3>fluid container</h3>
-    <div>This is a centered container and it will go till the specified width</div>
-
-    <hr>
-
-    <h2>@links</h2>
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-    
-    <h3>unordered list</h3>
-    <ul>
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-    </ul>
-
-    <h3>unordered inline list</h3>
-    <ul>
-        <li>Inline Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
-    </ul>
-
-    <h3>reversed ordered list</h3>
-    <ol reversed>  
-        <li>milk</li>
-        <li>eggs</li>
-        <li>bread</li>
-    </ol>
-</body>
+    <footer class="footer container">
+        <div class="footer-header"><strong>social media presence</strong> </div>
+        <ul class="social-links list-non-bullet ">
+          <li class="list-item-inline"><a class="link" href="">github</a></li>
+          <li class="list-item-inline"><a class="link" href="">instagram</a></li>
+          <li class="list-item-inline"><a class="link" href="">twitter</a></li>
+        </ul>
+      </footer>
+  </body>
 </html>

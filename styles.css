@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+:root{
+    --primary-color:#6203af;
+    --grey:grey;
+    --off-white:rgba(196, 196, 196, 0.603);
+}
+
+html,body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+hr{
+    margin: 2rem 0;
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+.container-fluid{
+    margin: 0rem;
+}
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem ;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary{
+    color: var(--secondary-color);
+    border-radius:0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0 0.5rem;
+}
+
+/* navigation */
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0 0 1rem 1rem;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.nav-brand{
+    font-weight: bold;
+}
+
+.nav-pills{
+    text-align: right;
+}
+
+.navigation .link{
+    color: white;
+    padding: 0;
+}
+
+.link-active{
+    font-weight: bold;
+}
+
+/* HERO */
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    width: 50%;
+    display: block;
+    margin:auto;
+}
+
+.hero .hero-heading{
+    font-size: 1.5rem;
+    color: var(--grey);
+    text-align: center;
+}
+
+.hero .hero-heading-highlight{
+    color: var(--primary-color);
+}
+
+/* section */
+
+.section{
+    padding: 1rem 2rem 2.5rem 2rem;
+    
+}
+.section{
+    text-align: center;
+}
+
+
+.section-off-white{
+    background-color: var(--off-white);
+}
+
+/* footer */
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 2rem 1rem 2rem;
+    color: white;
+    text-align: center;
+}
+
+.footer .link{
+    color: white;
+}
+
+
+.blog-heading-link{
+    text-decoration: none;
+}
+
+.blog-post-container{
+    padding: 1rem 0;
+}
+
+.blog{
+    padding: 2rem 5rem;
+}
+
+.blog-post-img{
+    display: block;
+}

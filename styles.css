@@ -38,12 +38,15 @@ hr{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    display: inline-block;
+    margin: 0.5rem 0;
 }
 
 .link-secondary{
     color: var(--secondary-color);
     border-radius:0.5rem;
     border: 1px solid var(--primary-color);
+    display: inline-block;
 }
 
 .list-non-bullet{
@@ -146,4 +149,10 @@ hr{
 
 .blog-post-img{
     display: block;
+    width: 90%;
+}
+
+
+.social-link-item{
+    padding: 0.5rem 0rem ;
 }

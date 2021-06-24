@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 :root{
-    --primary-color:#6203af;
+    --primary-color:#000000;
     --grey:grey;
     --off-white:rgba(196, 196, 196, 0.603);
 }
 
 html,body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Merriweather', serif;
     margin: 0;
 }
 
@@ -137,6 +136,10 @@ hr{
 
 .blog-heading-link{
     text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+    display: block;
+    font-size: 1.5rem;
 }
 
 .blog-post-container{
@@ -152,7 +155,9 @@ hr{
     width: 90%;
 }
 
-
+.social-links{
+    padding-inline-start: 0px;
+}
 .social-link-item{
     padding: 0.5rem 0rem ;
 }

@@ -11,7 +11,7 @@ html,body{
 }
 
 hr{
-    margin: 2rem 0;
+    margin: 2rem 9rem;
 }
 
 .container{
@@ -39,6 +39,7 @@ hr{
     color: white;
     display: inline-block;
     margin: 0.5rem 0;
+    font-weight: bold;
 }
 
 .link-secondary{
